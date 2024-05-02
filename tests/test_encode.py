@@ -1,8 +1,8 @@
-from caesar_cipher import create_app
+from app import create_app
+from app.encode import encode
 
-def test_home_page():
-    flak_app = create_app()
+flask_app = create_app()
 
-    with flak_app.test_client() as test_clent: 
-        response = test_clent.get('/')
-        assert response.status_code == 200 
+def test_encode_function():
+    encoded_message = encode("ABCD", 2)
+    assert encoded_message == "CDEF"
