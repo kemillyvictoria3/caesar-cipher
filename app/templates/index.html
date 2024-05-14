@@ -1,5 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content%}
- 
+   <div class="info">
+        TEXTO DESCRITIVO DA CIFRA DE CÉSAR
+   </div>
+   
+   <div class="cipher-container">
+        <a href="/encode">
+            <div class="cipher-container-item">
+                <img class="cipher-image" src="{{ url_for('static',filename='imagens/logo.jpg') }}">
+            </div>
+        </a>
+
+        <a href="decode"></a>
+    </div>
 {% endblock %}
