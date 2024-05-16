@@ -6,12 +6,20 @@
     --color-text:rgba(255, 0, 212, 0.514);
     --color-background:rgb(12, 4, 12);
 }
+
 body{
     background-color: var(--color-background);
     color: var(--color-text);
     font-family: Roboto+Slab;
     font-size: 1,2rem;
     line-height: 1,5;
+}
+
+.alert{
+    font-size:1rem;
+    padding: 2px;
+    color: var(--color-text);
+    background-color: var(--color-primary-dark);
 }
 
 .info{
