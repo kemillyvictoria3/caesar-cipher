@@ -1,9 +1,9 @@
 :root{
     --color-primary: rgba(255, 0, 255, 0.856);
     --color-primary-houver:rgba(255, 0, 255, 0.856);
-    --color-primary-dark:rgba(255, 0, 255, 0.856);
+    --color-primary-dark:rgba(255, 0, 255, 0.918);
 
-    --color-text:rgba(255, 0, 212, 0.514);
+    --color-text:rgba(128, 35, 115, 0.993);
     --color-background:rgb(12, 4, 12);
 }
 
@@ -55,5 +55,5 @@ body{
 }
 
 .header-logo {
-    height: 150px;
+    height: 200px;
 }
