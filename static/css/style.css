@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #902194;
-    --color-primary-hover: #902194;
-    --color-primary-dark: #902194;
+    --color-primary: #890504;
+    --color-primary-hover: #FF0000;
+    --color-primary-dark: #990100;
 
     --color-text: #FFF0F3;
-    --color-background: hsl(0, 0%, 0%);
+    --color-background: #220901;
 }
 
 body {
